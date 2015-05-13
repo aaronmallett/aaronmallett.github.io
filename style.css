@@ -139,6 +139,10 @@ body {
 	position: relative;
 }
 
+.portfolio {
+	overflow: auto;
+}
+
 #brad {
 	background-image: url(images/brad.jpg);
 }
@@ -191,8 +195,105 @@ figcaption a {
 
 
 
+/**************************************
+----------------FOOTER-----------------
+**************************************/
 
 
+#footer {
+	height: 200px;
+	background: white;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#twitter {
+	width: 38px;
+	height: 38px;
+	overflow: hidden;
+	float: left;
+}
+
+#twitter img{
+	/*transition: all 0.3s ease-in-out;*/
+}
+
+#twitter:hover img{
+	-webkit-transform: translate(0, -39px) ;
+}
+
+#facebook {
+	width: 38px;
+	height: 38px;
+	overflow: hidden;
+	float: left;
+}
+
+#facebook img{
+	/*transition: all 0.3s ease-in-out;*/
+}
+
+#facebook:hover img{
+	-webkit-transform: translate(0, -39px) ;
+}
+
+#email {
+	width: 38px;
+	height: 38px;
+	overflow: hidden;
+	float: left;
+}
+
+#email img{
+	/*transition: all 0.3s ease-in-out;*/
+}
+
+#email:hover img{
+	-webkit-transform: translate(0, -39px) ;
+}
+
+.social {
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+#links {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+#connect {
+	display: block;
+}
+
+#connect span {
+	font-family: 'Roboto Slab', serif;
+	font-style: italic;
+	font-size: 15pt;
+}
 
 
+#up {
+	width: 38px;
+	height: 38px;
+	overflow: hidden;
+	float: right;
+}
+#up:hover img{
+	-webkit-transform: translate(0, -39px) ;
+}
 
+#phone {
+	width: 200px;
+	float: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14pt;
+	line-height: 0;
+}
+
+#phone span {
+	font-size: 16pt;
+	font-weight: bold;
+
+}

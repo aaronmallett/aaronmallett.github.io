@@ -1,7 +1,13 @@
 $(window).ready(function(){
 
 	$('.full-page-panel').height($(window).height());
-})
+
+	$("a[href='#header']").click(function() {
+  		$("html, body").animate({ scrollTop: 0 }, "slow");
+  		return false;
+});
+
+});
 
 
 $(window).resize(function() {
@@ -31,7 +37,7 @@ $(window).scroll(function(){
 
 	});
 
-
+	
 
 });
 
