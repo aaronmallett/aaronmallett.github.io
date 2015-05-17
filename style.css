@@ -235,6 +235,9 @@ figcaption a {
 
 #twitter:hover img{
 	-webkit-transform: translate(0, -39px) ;
+	-moz-transform: translate(0, -39px) ;
+	-o-transform: translate(0, -39px) ;
+
 }
 
 #facebook {
@@ -250,6 +253,8 @@ figcaption a {
 
 #facebook:hover img{
 	-webkit-transform: translate(0, -39px) ;
+	-moz-transform: translate(0, -39px) ;
+	-o-transform: translate(0, -39px) ;
 }
 
 #email {
@@ -265,6 +270,8 @@ figcaption a {
 
 #email:hover img{
 	-webkit-transform: translate(0, -39px) ;
+	-moz-transform: translate(0, -39px) ;
+	-o-transform: translate(0, -39px) ;
 }
 
 .social {
@@ -297,6 +304,8 @@ figcaption a {
 }
 #up:hover img{
 	-webkit-transform: translate(0, -39px) ;
+	-moz-transform: translate(0, -39px) ;
+	-o-transform: translate(0, -39px) ;
 }
 
 #phone {
