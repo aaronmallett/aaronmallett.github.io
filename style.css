@@ -22,6 +22,29 @@ body {
 	margin-top: -80px;
 }
 
+
+#header-mobile {
+	background: url(images/canvas.jpg)no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	height: 600px;
+	display: none;
+}
+
+.logo-mobile {
+	height: 160px;
+	width: 100%;
+	background-image: url(images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 50%;
+	margin-top: -80px;
+}
+
+
 .pencil {
 	width: 960px;
 	height: 700px;
@@ -83,6 +106,11 @@ body {
  	background-position: center;
   	margin: 70px auto;
 }
+
+.mobile-image {
+		display: none;
+		width: 100%;
+	}
 
 /**************************************
 ----------------ABOUT------------------
@@ -321,3 +349,96 @@ figcaption a {
 	font-weight: bold;
 
 }
+
+
+
+/**************************************
+----------------RESPONSIVE-------------
+**************************************/
+
+
+@media(max-width: 860px){
+	.mobile-image {
+		display: inline !important;
+	}
+
+	.process {
+		height: auto;
+		width: 80%;
+		background-image: none;
+	}
+
+	.about img {
+		float: none;
+		display: block;
+		margin-right: 0;
+		margin-top: 0;
+		width: 100%;
+	}
+
+	.about p {
+		text-align: center;
+	}
+
+	.thumb {
+		width: 80%;
+		height: 300px;
+		display: block;
+		background-position: center;
+		margin: 0 auto;
+		margin-top: 20px;
+		float: none;
+		border: #e2e2e2 solid 1px;
+	}
+
+	.portfolio {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	figcaption {
+		opacity: 1;
+	}
+
+	figcaption a{
+		top: 250px;
+		left: 0;
+		opacity: 1;
+	}
+
+	#footer {
+		border-top: #e2e2e2 solid 1px;
+	}
+
+	#header {
+		display: none;
+	}
+
+	#header-mobile {
+		display: inline-block;
+  		width: 100%;
+	}
+
+	.logo-mobile {
+		height: 150px;
+		width: 100%;
+		background-image: url(images/logo.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		position: absolute;
+		top: 50%;
+		margin-top: -75px;
+}
+
+@media(max-width: 650px){
+
+}
+
+
+
+
+
+
+
+
