@@ -368,6 +368,10 @@ figcaption a {
 		background-image: none;
 	}
 
+	.about-process {
+		width: 80%;
+	}
+
 	.about img {
 		float: none;
 		display: block;
