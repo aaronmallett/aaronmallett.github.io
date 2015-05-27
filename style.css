@@ -435,8 +435,10 @@ figcaption a {
 		margin-top: -75px;
 }
 
-@media(max-width: 650px){
-
+@media(max-width: 400px){
+	#up {
+		display: none;
+	}
 }
 
 
