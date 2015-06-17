@@ -4,7 +4,7 @@ body {
 }
 
 #header {
-	background: url(images/canvas.jpg)no-repeat center center;
+	background: url(images/canvas2.jpg)no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	position: relative;
@@ -24,7 +24,7 @@ body {
 
 
 #header-mobile {
-	background: url(images/canvas.jpg)no-repeat center center;
+	background: url(images/canvas2.jpg)no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	position: relative;
@@ -435,10 +435,8 @@ figcaption a {
 		margin-top: -75px;
 }
 
-@media(max-width: 400px){
-	#up {
-		display: none;
-	}
+@media(max-width: 650px){
+
 }
 
 
