@@ -10,7 +10,7 @@
 
 @font-face {
 	font-family: Aller-Light;
-	src: url(../fonts/Aller/Aller_lt.ttf);
+	src: url(../Fonts/Aller/Aller_lt.ttf);
 }
 
 
@@ -67,7 +67,8 @@ ul.dropdown-menu {
 
 #nav-links a{
 	padding: 0 5px 0 5px;
- 	font-family: OpenSans-Semibold, helvetica;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 600;
  	font-size: 1em;
  	color: #858484;
 }
@@ -119,7 +120,8 @@ ul.dropdown-menu {
 	float: left;
   	padding-left: 5px;
   	padding-top: 0;
-  	font-family: OpenSans-Semibold, helvetica;
+  	font-family: 'Open Sans', sans-serif;
+  	font-weight: 600;
   	color: #003d4b;
   	font-size: 1.25em;
 }
@@ -176,14 +178,16 @@ ul.dropdown-menu {
 }
 
 .fancy-content p{
-	font-family: OpenSans-Semibold ;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	font-size: 13pt;
 	color: white;
 	line-height: 1.5em;
 }
 
 .fancy-content a {
-	font-family: OpenSans-Semibold ;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	font-size: 13pt;
 	color: white;
 	background: #22b573;
@@ -233,14 +237,16 @@ PANEL 2 - HOME
 }
 
 .panel2-content p{
-	font-family: OpenSans-Semibold ;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	font-size: 13pt;
 	color: #003d4b;
 	line-height: 1.5em;
 }
 
 .panel2-content a{
-	font-family: OpenSans-Semibold ;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	font-size: 13pt;
 	color: white;
 	background: #003d4b;
@@ -273,7 +279,7 @@ FOOTER - HOME
 }
 
 #panel3-content p{
-	font-family: OpenSans-Regular, helvetica ;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13pt;
 	color: white;
 }
@@ -325,7 +331,8 @@ FOOTER - HOME
 }
 
 .green-button{
-	font-family: OpenSans-Semibold ;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	font-size: 13pt;
 	color: white;
 	background: #22b573;
@@ -350,7 +357,7 @@ span#f-pc {
 
 #footer-text {
 	font-size: 10pt;
-	font-family: OpenSans-Regular;
+	font-family: 'Open Sans', sans-serif;
 	color: #0195b7;
 	clear: both;
 	padding: 0px 20px;
@@ -398,7 +405,7 @@ CONTENT
 	width: 60%;
 	margin: 0 auto;
 	margin-top: 75px;
-	font-family:OpenSans-Regular, helvetica;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13pt;
 	color: #01506c;
 	margin-bottom: 40px;
@@ -512,11 +519,12 @@ CONTENT
 
 
 .testimonials p {
-	font-family: OpenSans-Semibold, helvetica;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 }
 
 #quote {
-	font-family: OpenSans-Regular, helvetica;
+	font-family: 'Open Sans', sans-serif;
 }
 /**************************
 GOOGLE MAPS
