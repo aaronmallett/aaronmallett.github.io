@@ -172,7 +172,7 @@ ul.dropdown-menu {
 }
 
 .fancy-content h2{
-	font-family: Aller-Light;
+	font-family: 'Aller-Light', sans-serif;
 	font-size: 4.5em;
 	color: white;
 }
@@ -231,7 +231,7 @@ PANEL 2 - HOME
 }
 
 .panel2-content h2{
-	font-family: Aller-Light;
+	font-family: 'Aller-Light', sans-serif;
 	font-size: 4.5em;
 	color: #003d4b;
 }
@@ -290,7 +290,7 @@ FOOTER - HOME
 }
 
 #panel3-content span{
-	font-family: Aller-Light;
+	font-family: 'Aller-Light', sans-serif;
 	font-size: 3.5em;
 	color: white;
 	line-height: 1em;
@@ -384,7 +384,7 @@ CONTENT
 }
 
 #header-text h1 {
-	font-family: Aller-Light, helvetica;
+	font-family: 'Aller-Light', sans-serif;
 	font-size: 3.5em;
 	color: white;
 	margin-bottom: 0;
@@ -397,7 +397,7 @@ CONTENT
 
 #header-text p {
 	color: white;
-	font-family: Aller-Light, helvetica;
+	font-family: 'Aller-Light', sans-serif;
 	font-size: 15pt;
 }
 
