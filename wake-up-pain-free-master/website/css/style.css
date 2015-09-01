@@ -269,6 +269,7 @@ FOOTER - HOME
 	background: url(../images/panel3.jpg)no-repeat;
 	background-size: cover;
 	overflow: auto;
+	width: 100%;
 }
 
 #panel3-content {
