@@ -536,3 +536,26 @@ GOOGLE MAPS
     margin: 0;
     padding: 0;
 }
+
+/**************************
+Policy & Terms
+***************************/
+
+span#green-it {
+	color: #22b573;
+	font-weight: 600;
+	font-style: italic;
+}
+
+span#address {
+	font-size:14pt;
+}
+
+
+
+
+
+
+
+
+
