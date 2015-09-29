@@ -184,6 +184,7 @@ body {
 
 .portfolio {
 	overflow: auto;
+	background-color: #e4e4e4;
 }
 
 #brad {
@@ -197,6 +198,12 @@ body {
 #coco {
 	background-image: url(images/coco.jpg);
 
+}
+
+#klass {
+	background-image: url(images/klass.jpg);
+	background-position-x: -70px;
+	clear: both;
 }
 
 figcaption {
@@ -342,6 +349,7 @@ figcaption a {
 	font-family: 'Roboto Slab', serif;
 	font-size: 14pt;
 	line-height: 0;
+	margin-right: 0;
 }
 
 #phone span {
@@ -393,6 +401,10 @@ figcaption a {
 		margin-top: 20px;
 		float: none;
 		border: #e2e2e2 solid 1px;
+	}
+
+	#klass {
+		background-position-x: 0;
 	}
 
 	.portfolio {
