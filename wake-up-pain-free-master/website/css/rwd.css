@@ -1,3 +1,15 @@
+@media (max-width: 1175px) {
+	#terms {
+		width: 80%;
+	}
+}
+
+@media (max-width: 1306px) {
+	#terms {
+		width: 90%;
+	}
+}
+
 @media (max-width: 1090px) {
 	#navbar {
 		font-size: 12px;

@@ -86,6 +86,17 @@ function termsHeight1(){
 
 }
 
+$(window).resize(function(){
+
+	var footerText = $('#footer-text').outerHeight(true);
+
+	if ($(window).width() <= 575){	
+
+		$("#terms").height(footerText + 80);
+	}	
+});
+
+
 $(window).scroll(function(){
 
 	var wScroll = $(this).scrollTop();
