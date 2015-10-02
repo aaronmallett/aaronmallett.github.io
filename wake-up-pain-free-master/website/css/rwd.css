@@ -76,8 +76,6 @@
 		padding-right: 0;
 	}
 
-	
-
 	#panel3-content span {
 		font-size: none;
 	}
@@ -99,6 +97,11 @@
 		clear: both;
 		float: none;
 		text-align: center;
+		font-size: 9pt;
+	}
+
+	#footer-text {
+		font-size: 8pt;
 	}
 
 	#content {
