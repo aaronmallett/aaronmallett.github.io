@@ -18,7 +18,7 @@
 	$about = $_POST['about'];
 
 	$from = 'aaron.dnd@gmail.com';
-	$to = 'phpmailtest@mailinator.com';
+	$to = 'klasschiropractic@mailinator.com';
 	$subject = "[NOREPLY] New contact " . $name . " from landing page";
 	$body = "Name: " . $name . "  |  Email: " . $email . "  |  Phone: " . $phone "	|	About: " . $about;
 
