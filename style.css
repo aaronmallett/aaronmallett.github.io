@@ -206,6 +206,10 @@ body {
 	clear: both;
 }
 
+#magic {
+	background-image: url(images/magic.jpg);
+}
+
 figcaption {
 	width: 100%;
 	position: absolute;
