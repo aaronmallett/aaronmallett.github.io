@@ -549,8 +549,10 @@ GALLERY
 }
 
 }
-@media(max-width: 650px){
-
+@media(max-width: 500px){
+	#gallery {
+		width: 100%;
+	}
 }
 
 
