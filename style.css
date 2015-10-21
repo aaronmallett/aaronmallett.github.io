@@ -210,6 +210,10 @@ body {
 	background-image: url(images/magic.jpg);
 }
 
+#she {
+	background-image: url(images/she.jpg);
+}
+
 #billboard {
 	background-image: url(images/billboard-thumb.jpg);
 	background-position-x: -70px;
