@@ -214,6 +214,16 @@ body {
 	background-image: url(images/she.jpg);
 }
 
+#igothives {
+	background-image: url(images/igothives.jpg);
+	background-position: center center;
+}
+
+#twobytwo {
+	background-image: url(images/twobytwo.jpg);
+	background-position: center center;
+}
+
 #billboard {
 	background-image: url(images/billboard-thumb.jpg);
 	background-position-x: -70px;
