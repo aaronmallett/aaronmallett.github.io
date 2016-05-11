@@ -219,6 +219,16 @@ body {
 	background-position: center center;
 }
 
+#panurgy {
+	background-image: url(images/panurgy.jpg);
+	background-position: center center;
+}
+
+#nysteak {
+	background-image: url(images/nysteak.jpg);
+	background-position: center center;
+}
+
 #twobytwo {
 	background-image: url(images/twobytwo.jpg);
 	background-position: center center;
