@@ -1,0 +1,583 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#title {
+	position:absolute;
+	left: -9000000px;
+}
+
+/***************************************
+NAVIGATION
+***************************************/
+nav {
+    display: block;
+    height: 70px;
+    margin: 0 auto;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 300;
+    box-shadow: 0 0 6px 0px black;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+}
+
+li#number {
+    float: right;
+}
+
+nav ul li {
+	float: left;
+	display: block;
+	margin:0 auto;
+	margin-right: 20px;
+	margin-top: 25px;
+	text-decoration: none;
+}
+
+nav ul li a {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 14pt;
+    color: #9d816e;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+	color: #e2d9d3;
+}
+
+
+.arrow {
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -29px;
+}
+
+
+/***************************************
+PANEL 1
+***************************************/
+
+#panel1 {
+	position: relative;
+	background: #e2d9d3;
+}
+
+#theplacebanner {
+	display: block;
+	margin: 0 auto;
+	padding: 100px 0 100px 0;
+	width: 80%;
+    max-width: 826px;
+}
+
+
+/***************************************
+PANEL2
+***************************************/
+
+#panel2 {
+	position: relative;
+	padding-bottom: 50px;
+}
+
+#title-bar {
+	width: 100%;
+	height: 70px;
+	background: #9d816e;
+	font-family: 'Bree Serif', sans-serif;
+}
+
+#title-bar h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.45;
+}
+
+#panel2banner {
+	display: block;
+	margin:0 auto;
+}
+
+#panel2banner img {
+    width: 100%;
+    display: block;
+    max-width: 819px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 3px 5px -2px;
+    margin-bottom: 30px;
+}
+
+#panel2 > p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	color: #c7b5a9;
+	font-style: italic;
+	text-align: center;
+	margin:0 auto;
+	width: 50%;
+	line-height: 1.3;
+}
+
+#middle-bar {
+	width: 100%;
+	border-top: solid 3px #9d816e;
+	border-bottom: solid 3px #9d816e;
+	background-color: #e2d9d3;
+	padding: 30px 0 30px 0;
+	margin-top: 70px;
+    margin-bottom: 70px;
+    height:200px;
+}
+
+#middle-bar p {
+    font: 14pt/23px 'Open-Sans', sans-serif;
+    color: #654b39;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: lighter;
+}
+
+#middle-bar strong {
+    font-weight: bold;
+}
+
+#middle-bar a {
+	font-weight: bold;
+	color: #654b39;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+#middle-bar a:hover {
+	color: #947967;
+}
+
+#middle-bar h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    color: #654b39;
+    margin-bottom:30px;
+}
+
+ul#left {
+    position: absolute;
+    left: 15%;
+    list-style: initial;
+}
+
+ul#right {
+    position: absolute;
+    right: 15%;
+    list-style: initial;
+}
+
+#middle-bar ul {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    line-height: 2;
+    color: #654b39;
+}
+
+
+
+
+
+
+
+.slidesjs-navigation {
+    display: none;
+}
+
+
+
+ul.slidesjs-pagination {
+    display: none;
+}
+
+a.slidesjs-stop.slidesjs-navigation {
+    display: none !important;
+}
+
+div#slides {
+    /* width: 70%; */
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    box-shadow: 0 0 10px 0px;
+}
+
+div#slides img {
+	width: 100%;
+	height: 100%;
+	max-width: 800px;
+}
+
+#mobile-slides{
+	display: none;
+}
+
+/************************************
+PANEL3
+************************************/
+
+#panel3 {
+	position: relative;
+}
+
+#restaurant-banner {
+    position: relative;
+    z-index: 200;
+    height: 300px;
+    /* display: block; */
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 80%;
+    max-width: 826px;
+    background: url(../images/banner-bot.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+#restaurant-banner h2 {
+    position: absolute;
+    bottom: 0;
+    /* width: 100%; */
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    padding: 10px 35px;
+}
+
+#restaurant-banner span{
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 28pt;
+}
+
+#panel3 > p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	color: #c7b5a9;
+	font-style: italic;
+	text-align: center;
+	margin:0 auto;
+	width: 50%;
+	line-height: 1.3;
+	margin-bottom: 30px;
+}
+
+
+/************************************
+PANEL4
+************************************/
+
+#panel4 {
+	width: 100%;
+	margin: 0 auto;
+	background: url(../images/ribeye.jpg) center center;
+	overflow: auto;
+	background-attachment: fixed;
+}
+
+#primerib {
+	width: 50%;
+	float: right;
+	text-align: center;
+	padding: 200px 0;
+}
+
+#primerib-text {
+	width: 290px;
+	margin: 0 auto;
+}
+
+#primerib p {
+	font-family:'Open Sans', sans-serif;
+	color: white;
+	font-style: italic;
+	font-size: 24pt;
+	line-height: 2;
+}
+
+#primerib h2 {
+	font-family:'Bree Serif', sans-serif;
+	color: white;
+	font-size: 35pt;
+	border-top: solid white 2px;
+	border-bottom: solid white 2px;
+	line-height: 1.25;
+}
+
+
+/************************************
+PANEL5
+************************************/
+
+#panel5 {
+	width: 100%;
+	margin: 0 auto;
+	background: url(../images/restaurant.jpg)center center;
+	overflow: auto;
+	background-attachment: fixed;
+}
+
+#specials {
+    width: 50%;
+    float: left;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+#specials h2 {
+    color: white;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 30pt;
+    font-family: 'Bree Serif', sans-serif;
+    line-height: 1.25;
+}
+
+.special-item h3 {
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 20pt;
+    line-height: 1.2;
+}
+
+.special-item p {
+    padding-bottom: 20px;
+}
+
+#daily-lunch h3 {
+    font-size: 25pt;
+    font-weight: bold;
+    font-style: italic;
+    /* border-top: dotted 3px white; */
+    padding: 5px 20px;
+}
+
+hr {
+    border-top: dotted 4px white;
+    border-bottom: none;
+}
+
+a#menu-link {
+    font: 16pt/1.2 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border-radius: 20px;
+    padding: 3px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+a#menu-link:hover {
+	color: white;
+	background: transparent;
+	border: solid white 2px;
+}
+
+/************************************
+FOOTER
+************************************/
+
+
+div#footer {
+    height: 80px;
+    background: #9d816e;
+    color: white;
+    padding: 20px 0;
+}
+
+#footer p {
+    font-size: 12pt;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#footer span {
+    font-style: italic;
+    font-size: 10pt;
+}
+
+div#tel-footer {
+    margin: 0 auto;
+    width: 125px;
+    margin-top: 20px;
+}
+
+#footer a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 15pt;
+    transition: all 0.3s ease-in-out;
+}
+
+#footer a:hover {
+	color: #e2d9d3;
+}
+
+/************************************
+MOBILE
+************************************/
+
+@media (max-width: 800px) {
+	nav {
+		height: 80px;
+	}
+
+	nav ul li {
+		margin-top: 15px;
+	}
+
+	li#number {
+		float: left;
+	}
+
+	#middle-bar {
+		height: inherit;
+	}
+
+	#middle-bar ul {
+		text-align: left;
+		margin-left: 5%;
+	}
+
+	ul#right, ul#left {
+		position: inherit;
+		right:inherit;
+		width: 300px;
+    	margin: 0 auto;
+	}
+
+	#slides {
+		display: none !important;
+	}
+
+	#mobile-slides {
+		display: inline;
+	}
+
+	#mobile-slides {
+    	width: 100%;
+    	margin: 0 auto;
+	}
+
+	#mobile-slides img {
+	    width: 100%;
+	    margin: 0 auto;
+	    padding: 0;
+	}
+
+	#primerib {
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	    margin: 0 auto;
+	    padding: 200px 0;
+	}
+
+	#specials {
+		width: 100%;
+	}
+
+	#panel2 > p {
+		width: 80%;
+	}
+
+	#panel3 > p {
+		width: 80%;
+	}
+
+	#panel4 {
+		background-attachment: inherit;
+	}
+
+	#panel5 {
+		background-attachment: inherit;
+	}
+
+}
+
+@media (max-width: 450px) {
+	#title-bar h2 {
+	    color: white;
+	    font-size: 30px;
+	    text-align: center;
+	    line-height: 2;
+	}
+}
+
+
