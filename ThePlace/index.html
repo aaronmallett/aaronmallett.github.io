@@ -9,11 +9,13 @@ We also have lakeside campsites available at Browns Lake in Salix, Iowa. Call fo
 <title>The Place | Restaurant - Lounge - RV Park</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
 <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<script src="https://use.fontawesome.com/3064c1091b.js"></script>
 
 
 </head>
 
 <body>
+<div id="overlay"></div>
 
 	<h1 id="title">The Place RV Park, Campground, Laundromat, Restaurant and Lounge - Sloan, Iowa</h1>
 
@@ -22,6 +24,7 @@ We also have lakeside campsites available at Browns Lake in Salix, Iowa. Call fo
 			<li><a href="#panel1">Home</a></li>
 			<li><a href="#panel2">Camping</a></li>
 			<li><a href="#panel3">Restaurant</a></li>
+			<li id="contact"><a href="#">Contact Us</a></li>
 			<li id="number"><a href="tel:712-428-7300">712.428.7300</a></li>
 		</ul>
 	</nav>
@@ -30,6 +33,16 @@ We also have lakeside campsites available at Browns Lake in Salix, Iowa. Call fo
 		<div id="panel1">
 			<img id="theplacebanner" src="images/theplace.png" alt="The Place RV Park, Restaurant and Lounge, Steak and Chops, Laundromat">
 			<a class="arrow" href="#panel3"><img src="images/arrow.png"></a>
+		</div>
+
+		<div id="contact-window">
+			<i id="close" class="fa fa-times"></i>
+			<h2>Contact Us</h2>
+			<ul>
+				<li>Restaurant: <a href="tel:712-428-7300">712.428.7300</a></li>
+				<li>Campground: <a href="tel:712-203-4333">712.203.4333</a></li>
+				<li>Campground: <a href="tel:712-420-1652">712.420.1652</a></li>
+			</ul>
 		</div>
 
 		
@@ -160,9 +173,11 @@ We also have lakeside campsites available at Browns Lake in Salix, Iowa. <a href
 		</div>
 	</div>
 
+
 <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
 <script src="js/jquery.js"></script>
 <script src="js/Slides-SlidesJS-3/source/jquery.slides.min.js"></script>
+<script src="js/scripts.js"></script>
 
   <script>
     $(function(){
